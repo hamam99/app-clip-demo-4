@@ -1,0 +1,9 @@
+{
+  "Simulator Target Bundle": "com.notif.demo.Clip",
+  "aps": {
+    "alert": {
+      "title": "Notif from apns",
+      "body": "You got notif from apns"
+    }
+  }
+}

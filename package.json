@@ -7,7 +7,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "scheme":"npx expo run:ios --scheme"
+    "scheme": "npx expo run:ios --scheme"
   },
   "dependencies": {
     "expo": "~48.0.21",
@@ -15,7 +15,11 @@
     "react": "18.2.0",
     "react-native": "0.71.14",
     "react-native-app-clip": "^0.2.4",
-    "expo-splash-screen": "~0.18.2"
+    "expo-splash-screen": "~0.18.2",
+    "expo-notifications": "~0.18.1",
+    "expo-device": "~5.2.1",
+    "typescript": "^4.9.4",
+    "@types/react": "~18.0.27"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

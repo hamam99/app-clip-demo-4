@@ -62,22 +62,22 @@
 		3C6996BEC435F5EDA3F24B01 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-appclipdemo4Clip/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-appclipdemo4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appclipdemo4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61149DB642464CCCAE127B26 /* Expo.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = Expo.plist; path = Supporting/Expo.plist; sourceTree = "<group>"; };
-		6A6C3EDFF271487F9A4D0EC8 /* Images.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images.xcassets; sourceTree = "<group>"; };
+		6A6C3EDFF271487F9A4D0EC8 /* Images.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-appclipdemo4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclipdemo4.debug.xcconfig"; path = "Target Support Files/Pods-appclipdemo4/Pods-appclipdemo4.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-appclipdemo4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclipdemo4.release.xcconfig"; path = "Target Support Files/Pods-appclipdemo4/Pods-appclipdemo4.release.xcconfig"; sourceTree = "<group>"; };
 		94CF8DD8E3C0E14B57819171 /* Pods-appclipdemo4Clip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appclipdemo4Clip.release.xcconfig"; path = "Target Support Files/Pods-appclipdemo4Clip/Pods-appclipdemo4Clip.release.xcconfig"; sourceTree = "<group>"; };
-		9E10FAFD140C401A8E376D02 /* SplashScreen.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SplashScreen.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		9E10FAFD140C401A8E376D02 /* SplashScreen.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = appclipdemo4/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C071085DA27E4220ABA92841 /* AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D3BB5B5264744F119BB839F6 /* appclipdemo4Clip.entitlements */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = appclipdemo4Clip.entitlements; path = appclipdemo4Clip.entitlements; sourceTree = "<group>"; };
-		DEABC118C30344A8B634A12D /* AppDelegate.mm */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AppDelegate.mm; path = AppDelegate.mm; sourceTree = "<group>"; };
+		C071085DA27E4220ABA92841 /* AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3BB5B5264744F119BB839F6 /* appclipdemo4Clip.entitlements */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = appclipdemo4Clip.entitlements; sourceTree = "<group>"; };
+		DEABC118C30344A8B634A12D /* AppDelegate.mm */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = AppDelegate.mm; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F4138B19DDC04B9FA9C0CAEC /* Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
-		F9A005298ADE49AEB0881C35 /* main.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = main.m; path = main.m; sourceTree = "<group>"; };
+		F4138B19DDC04B9FA9C0CAEC /* Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A005298ADE49AEB0881C35 /* main.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-appclipdemo4/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		FCA484C3508DBFC9F733D860 /* libPods-appclipdemo4Clip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appclipdemo4Clip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD6260C031640B6967472A5 /* appclipdemo4Clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = undefined; name = appclipdemo4Clip.app; path = appclipdemo4Clip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD6260C031640B6967472A5 /* appclipdemo4Clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; fileEncoding = 9; includeInIndex = 0; name = appclipdemo4Clip.app; path = "My App Clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +215,6 @@
 				D3BB5B5264744F119BB839F6 /* appclipdemo4Clip.entitlements */,
 				61149DB642464CCCAE127B26 /* Expo.plist */,
 			);
-			name = appclipdemo4Clip;
 			path = appclipdemo4Clip;
 			sourceTree = "<group>";
 		};
@@ -277,6 +276,7 @@
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 9P6SXYNXT7;
 						LastSwiftMigration = 1250;
 					};
 					408AED5D12BE44A7BFE12730 = {
@@ -551,6 +551,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = appclipdemo4/appclipdemo4.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6SXYNXT7;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -583,6 +584,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = appclipdemo4/appclipdemo4.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6SXYNXT7;
 				INFOPLIST_FILE = appclipdemo4/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

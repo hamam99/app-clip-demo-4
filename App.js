@@ -2,20 +2,24 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import {
   isClip as isClipFun,
-  displayOverlay,
-  setSharedCredential,
-  getSharedCredential,
 } from "react-native-app-clip";
+import * as Notifications from 'expo-notifications';
+import AppClipScreen from './src/AppClipScreen';
 
-export default function App({isClip}) {
-  console.log(`app`, {
-    isClip, 
-    isClipFun: isClipFun()
-  })
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: false,
+    shouldSetBadge: false,
+  }),
+});
+
+export default function App() {
   return (
     <View style={styles.container}>
       {
-        isClipFun() ? <Text>App Clip</Text> : <Text>Not App Clip</Text>
+        isClipFun() ? <AppClipScreen/> : <Text>Not App Clip</Text>
+        // isClipFun() ?<Text>App Clip</Text> : <Text>Not App Clip</Text>
       }
       <StatusBar style="auto" />
     </View>
