@@ -1,10 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import {
+  isClip as isClipFun,
+  displayOverlay,
+  setSharedCredential,
+  getSharedCredential,
+} from "react-native-app-clip";
 
-export default function App() {
+export default function App({isClip}) {
+  console.log(`app`, {
+    isClip, 
+    isClipFun: isClipFun()
+  })
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      {
+        isClipFun() ? <Text>App Clip</Text> : <Text>Not App Clip</Text>
+      }
       <StatusBar style="auto" />
     </View>
   );

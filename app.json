@@ -15,7 +15,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "entitlements": {
+        "com.apple.developer.associated-appclip-app-identifiers": [
+          "$(AppIdentifierPrefix)undefined.Clip"
+        ]
+      },
+      "bundleIdentifier": "com.notif.demo"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +31,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "react-native-app-clip",
+        {
+          "name": "My App Clip"
+        }
+      ]
+    ]
   }
 }
